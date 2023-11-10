@@ -1,0 +1,558 @@
+/* from 1200 to 1300 */
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .container {
+    width: 80%;
+  }
+  .gallery-section-container .gallery-container {
+    height: 950px;
+  }
+  .chefs-container .chef-detail .chef-img-container img {
+    height: auto;
+  }
+  .chefs-container .chef-detail .chef-img-container::after {
+    bottom: -14px;
+  }
+  .contact-details .address {
+    width: 49%;
+  }
+  .contact-details .email {
+    width: 49%;
+  }
+  .contact-details .phone {
+    width: 49%;
+  }
+  .contact-details .opening-hours {
+    width: 49%;
+  }
+}
+/* --------------------- */
+/* --------------------- */
+/* Nav-Bar style bellow 1200 */
+/* --------------------- */
+/* --------------------- */
+
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    width: 80%;
+    /* position: relative; */
+  }
+  .navbar-list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 15px 0 15px;
+    position: absolute;
+    background-color: #fff;
+    width: 350px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateX(100%);
+
+    transition: transform 1s;
+  }
+
+  /* Close nav-list */
+
+  .navbar-list:target {
+    transform: translateX(0);
+  }
+
+  .navbar-list li {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 35px;
+  }
+
+  .navbar-list li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: start;
+  }
+  .navbar-list .close-icon {
+    display: inline-block;
+    width: 20px;
+    align-self: flex-end;
+  }
+  .navbar-list .close-icon::before {
+    display: none;
+  }
+
+  .navbar-list .close-icon a {
+    font-size: 28px;
+  }
+
+  .nav-bar .mode-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mode-container .bars {
+    display: inline-block;
+    margin-left: 28px;
+  }
+}
+
+/* --------------------- */
+/* --------------------- */
+/* from 992 to 768 */
+/* --------------------- */
+/* --------------------- */
+
+@media screen and (max-width: 992px) {
+  header {
+    background-color: var(--bg-color);
+    height: auto;
+    overflow: auto;
+  }
+  .container {
+    width: 90%;
+  }
+  .home-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .home-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-content-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .home-content-container .home-content h2 {
+    width: 50%;
+    font-size: 65px;
+  }
+  .home-content-container .home-content p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5;
+    width: 75%;
+  }
+  .home-img-container {
+    width: 75%;
+  }
+  .home-img-container .img-container img {
+    width: 100%;
+  }
+
+  .home-content-container .home-content .home-btns {
+    flex-direction: row;
+  }
+
+  .home-content-container .home-content .home-btns .book-table {
+    margin-bottom: 0;
+    /* margin-right: 0; */
+    padding: 14px 39px;
+    border-radius: 50px 50px 50px 50px;
+  }
+
+  /* -------------------- End Header Section-------------------- */
+
+  /* -------------------- Start Chefs Section-------------------- */
+  .chefs-container {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  .chefs-container .chef-detail {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    width: 40%;
+  }
+  /* -------------------- End Chefs Section-------------------- */
+
+  /* -------------------- Start Gallery Section-------------------- */
+  .gallery-section-container .gallery-container {
+    width: 87%;
+    align-content: space-evenly;
+    height: 1400px;
+  }
+  .gallery-container .img {
+    width: 45%;
+  }
+  /* -------------------- End Gallery Section-------------------- */
+
+  /* -------------------- Start Contact Section-------------------- */
+  .contact-contents {
+    width: 85%;
+  }
+  .contact-details .address {
+    width: 49%;
+  }
+  .contact-details .email {
+    width: 49%;
+  }
+  .contact-details .phone {
+    width: 49%;
+  }
+  .contact-details .opening-hours {
+    width: 49%;
+  }
+
+  /* -------------------- End Contact Section-------------------- */
+
+  /* -------------------- Start Footer Section-------------------- */
+
+  .footer-contents {
+    width: 80%;
+    flex-direction: column;
+    /* margin-top: 3.125rem; */
+    margin-bottom: 0;
+    /* padding: 71px 0 15px 0; */
+  }
+
+  .footer-first-column {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer-first-column .footer-social-media ul li i {
+    font-size: 25px;
+  }
+  .footer-second-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-second-column .subscribe-container p {
+    font-size: 16px;
+  }
+  .footer-second-column .email-container form {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-second-column .email-container form input {
+    width: 95%;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+  .footer-second-column .email-container form button {
+    width: 95%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+
+    justify-content: center;
+  }
+  .footer-second-column .quick-links ul li {
+    font-size: 15px;
+  }
+  .footer-third-column {
+    width: 100%;
+  }
+  .footer-third-column ul li {
+    margin-bottom: 11px;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  .footer-third-column ul li i {
+    font-size: 22px;
+  }
+  .footer-third-column ul li a {
+    font-size: 14px;
+  }
+}
+
+/* --------------------- */
+/* --------------------- */
+/* from 768 to 400 */
+/* --------------------- */
+/* --------------------- */
+/*  */
+@media screen and (max-width: 768px) {
+  .home-content-container .home-content h2 {
+    width: 70%;
+    font-size: 65px;
+  }
+
+  /* -------------------- End Header Section-------------------- */
+
+  /* -------------------- Start Chefs Section-------------------- */
+
+  .chefs-container .chef-detail {
+    width: 75%;
+    margin-right: 0;
+  }
+  /* -------------------- End Chefs Section-------------------- */
+
+  /* -------------------- Start Gallery Section-------------------- */
+  .gallery-section-container .gallery-container {
+    width: 75%;
+
+    height: auto;
+  }
+
+  .gallery-container .img {
+    width: 100%;
+    margin: 0 0px 15px 0;
+  }
+
+  /* -------------------- End Gallery Section-------------------- */
+
+  /* -------------------- Start Contact Section-------------------- */
+  .contact-section-container {
+    width: 80%;
+  }
+  .contact-details {
+    flex-direction: column;
+  }
+
+  .contact-details .address {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .contact-details .email {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .contact-details .phone {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+  }
+  .contact-details .opening-hours {
+    width: 100%;
+    padding: 20px 20px;
+  }
+
+  .form-top {
+    flex-direction: column;
+  }
+
+  .form-top .first-name-container {
+    width: 100%;
+  }
+  .form-top .email-container {
+    width: 100%;
+  }
+  .form-top #first-name {
+    height: 55px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
+  .form-top #email {
+    height: 55px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
+  #subject {
+    height: 55px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
+  textarea#message {
+    height: 120px;
+    border-radius: 0px;
+    padding: 9px;
+  }
+  /* -------------------- End Contact Section-------------------- */
+
+  /* -------------------- Start Footer Section-------------------- */
+  .footer-contents {
+    padding: 71px 0 15px 0;
+    width: 70%;
+  }
+
+  .footer-second-column .subscribe-container p {
+    font-size: 16px;
+  }
+  .footer-second-column .email-container form {
+    flex-direction: row;
+    /* justify-content: center; */
+  }
+  .footer-second-column .email-container form input {
+    width: 95%;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+  .footer-second-column .email-container form button {
+    width: 22%;
+    height: 40px;
+    margin-left: 5px;
+  }
+  .footer-second-column .quick-links ul li {
+    font-size: 15px;
+  }
+  .footer-third-column {
+    width: 100%;
+  }
+  .footer-third-column ul li {
+    margin-bottom: 11px;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  .footer-third-column ul li i {
+    font-size: 22px;
+  }
+  .footer-third-column ul li a {
+    font-size: 14px;
+  }
+}
+
+/* --------------------- */
+/* --------------------- */
+/* from 992 to 1200 */
+/* --------------------- */
+/* --------------------- */
+@media (max-width: 400px) {
+  .home-img-container {
+    width: 100%;
+  }
+  .home-content-container .home-content p {
+    width: 100%;
+  }
+  .home-content-container .home-content .home-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-content-container .home-content h2 {
+    width: 100%;
+    font-size: 65px;
+  }
+  .home-content-container .home-content .home-btns .book-table {
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding: 14px 39px;
+    border-radius: 50px 50px 50px 50px;
+  }
+
+  /* -------------------- End Header Section-------------------- */
+
+  /* -------------------- Start Chefs Section-------------------- */
+  .chefs-container {
+    flex-direction: column;
+  }
+  .chefs-container .chef-detail {
+    width: 100%;
+    margin-right: 0;
+  }
+  /* -------------------- End Chefs Section-------------------- */
+
+  /* -------------------- Start Gallery Section-------------------- */
+  .gallery-section-container .gallery-container {
+    width: 100%;
+  }
+
+  .gallery-container .img {
+    width: 100%;
+    margin: 0 0px 15px 0;
+  }
+
+  /* -------------------- End Gallery Section-------------------- */
+
+  /* -------------------- Start Contact Section-------------------- */
+  .contact-section-container {
+    width: 100%;
+  }
+  .contact-details {
+    flex-direction: column;
+  }
+
+  .contact-details .address {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .contact-details .email {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .contact-details .phone {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+  }
+  .contact-details .opening-hours {
+    width: 100%;
+    padding: 20px 20px;
+  }
+
+  .form-top {
+    flex-direction: column;
+  }
+
+  .form-top .first-name-container {
+    width: 100%;
+  }
+  .form-top .email-container {
+    width: 100%;
+  }
+  .form-top #first-name {
+    height: 55px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
+  .form-top #email {
+    height: 55px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
+  #subject {
+    height: 55px;
+    border-radius: 0;
+    padding: 0 15px;
+  }
+  textarea#message {
+    height: 120px;
+    border-radius: 0px;
+    padding: 9px;
+  }
+  /* -------------------- End Contact Section-------------------- */
+
+  /* -------------------- Start Footer Section-------------------- */
+
+  .footer-contents {
+    width: 95%;
+  }
+
+  .footer-first-column {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer-first-column .footer-social-media ul li i {
+    font-size: 25px;
+  }
+  .footer-second-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-second-column .subscribe-container p {
+    font-size: 16px;
+  }
+  .footer-second-column .email-container form {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-second-column .email-container form input {
+    width: 95%;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+  .footer-second-column .email-container form button {
+    width: 95%;
+    margin-left: 0;
+  }
+  .footer-second-column .quick-links ul li {
+    font-size: 15px;
+  }
+  .footer-third-column {
+    width: 100%;
+  }
+  .footer-third-column ul li {
+    margin-bottom: 11px;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  .footer-third-column ul li i {
+    font-size: 22px;
+  }
+  .footer-third-column ul li a {
+    font-size: 14px;
+  }
+}
