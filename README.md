@@ -1,6 +1,4 @@
 # Mealify-Website
-A responsive website with HTML and CSS only 
-
 # Description
 Welcome to my project, this is a website of restaurant called Mealify,made in HTML and CSS only.
 It allows users to check the restaurant's meals, can see proffessional chefs , their amazing meal's images, and finally able to book a table for their next dinner.
