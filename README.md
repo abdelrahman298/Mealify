@@ -20,5 +20,6 @@ Address, Emal,phone number and opening hours
     - :hover
     - :focus
     - :target
-- also use prefers-color-scheme for website modes
-- and finally used var() in CSS to improve my performance and clean codes 
+- also use prefers-color-scheme for website modes.
+-and use animation to shake an image ^_^.
+- finally used var() in CSS to improve my performance and clean codes.
