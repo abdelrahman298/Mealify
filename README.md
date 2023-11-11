@@ -22,4 +22,5 @@ Address, Emal, phone number, and opening hours
     - :target
 - also use prefers-color-scheme for website modes.
 -and use animation to shake an image ^_^.
+-used Flex-box to layout the elements
 - finally used var() in CSS to improve my performance and clean codes.
